@@ -1,0 +1,22 @@
+<svg width="520" height="640" viewBox="0 0 520 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F4EFE2"/>
+      <stop offset="1" stop-color="#D8D1C0"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E2A24"/>
+      <stop offset="1" stop-color="#0F1512"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="640" rx="28" fill="url(#bg)"/>
+  <circle cx="270" cy="240" r="120" fill="#E8C6A3"/>
+  <path d="M140 520c30-110 210-110 240 0" fill="url(#shirt)"/>
+  <path d="M180 220c20-60 160-60 180 0" stroke="#BA8A5C" stroke-width="18" stroke-linecap="round"/>
+  <path d="M200 240c20 30 80 30 100 0" stroke="#8A5E3B" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="230" cy="240" r="8" fill="#3D2B1F"/>
+  <circle cx="310" cy="240" r="8" fill="#3D2B1F"/>
+  <path d="M190 200c10-40 140-40 160 0" stroke="#4C3425" stroke-width="20" stroke-linecap="round"/>
+  <path d="M160 180c50-120 200-120 240 0" fill="#2B1B12"/>
+  <rect x="40" y="44" width="440" height="552" rx="24" stroke="#E1D7C6" stroke-width="2"/>
+</svg>
