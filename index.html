@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relatório IA • Campanhas de Marketing</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Relatórios instantâneos</p>
+          <h1>Relatório simples de campanhas com IA</h1>
+          <p class="subtitle">
+            Cole os dados absolutos das suas campanhas e receba um resumo com taxas de conversão
+            e insights rápidos.
+          </p>
+        </div>
+        <div class="hero-card">
+          <h2>Como funciona</h2>
+          <ol>
+            <li>Informe os dados absolutos.</li>
+            <li>Opcional: insira sua chave da OpenAI.</li>
+            <li>Clique em “Gerar relatório”.</li>
+          </ol>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="panel">
+          <h3>Dados absolutos</h3>
+          <textarea
+            id="inputData"
+            rows="9"
+            placeholder="Exemplo:\nManychat: 89 execuções\nLeads inscritos: 74\nLeads confirmados: 71\nLeads no Grupo: 52\nVendas PR: 8"
+          ></textarea>
+          <div class="row">
+            <label for="apiKey">Chave da OpenAI (opcional)</label>
+            <input
+              id="apiKey"
+              type="password"
+              placeholder="sk-..."
+              autocomplete="off"
+            />
+          </div>
+          <div class="row">
+            <label for="model">Modelo</label>
+            <input id="model" type="text" value="gpt-4o-mini" />
+          </div>
+          <div class="actions">
+            <button id="generateButton">Gerar relatório com IA</button>
+            <button id="clearButton" class="secondary">Limpar</button>
+          </div>
+          <p class="footnote">
+            Sua chave fica somente no navegador e é usada apenas para esta requisição.
+          </p>
+        </section>
+
+        <section class="panel output">
+          <h3>Relatório</h3>
+          <div id="status" class="status">Pronto para gerar seu relatório.</div>
+          <pre id="output">Seu relatório aparecerá aqui.</pre>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <p>Feito para acelerar análises de campanhas com IA.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
