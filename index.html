@@ -48,6 +48,15 @@
             <label for="model">Modelo</label>
             <input id="model" type="text" value="gpt-4o-mini" />
           </div>
+          <div class="row">
+            <label for="investment">Investimento na campanha (R$)</label>
+            <input id="investment" type="number" min="0" step="0.01" placeholder="Ex: 1200,00" />
+          </div>
+          <div class="row">
+            <label>Produtos vendidos</label>
+            <div id="products" class="products"></div>
+            <button id="addProduct" class="secondary" type="button">Adicionar produto</button>
+          </div>
           <div class="actions">
             <button id="generateButton">Gerar relatório com IA</button>
             <button id="clearButton" class="secondary">Limpar</button>

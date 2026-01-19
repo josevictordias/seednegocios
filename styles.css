@@ -134,6 +134,35 @@ input {
   margin-top: 20px;
 }
 
+.products {
+  display: grid;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.product-row {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr auto;
+  gap: 8px;
+  align-items: center;
+}
+
+.product-row input {
+  width: 100%;
+}
+
+.product-row button {
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.product-row button:hover {
+  box-shadow: none;
+  transform: none;
+}
+
 button {
   border: none;
   border-radius: 999px;
